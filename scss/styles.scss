@@ -14,7 +14,7 @@
 
 .header .slide {
   margin: 0 auto;
-  width: 90%;
+  width: 70%;
 }
 
 .navbar {
@@ -40,6 +40,15 @@
   .header {
     height: 800px !important;
     min-height: 800px !important;
+  }
+  .header .slide {
+    width: 90%;
+  }
+
+
+  .header .text-container p {
+    width: 100% !important;
+    font-size: 16px;
   }
 
   .register {
