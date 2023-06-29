@@ -14,7 +14,85 @@
     <title>Corso Training</title>
   </head>
   <body>
-    <h1>Corso Training Website</h1>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./images/logo.png" alt="Corso Training logo image." width="150">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="#navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <!-- #name - will take you to the certain section of a page. -->
+              <a href="#home" aria-current="page" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#discover" class="nav-link">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#takeaways" class="nav-link">Takeaways</a>
+            </li>
+            <li class="nav-item">
+              <a href="#subscribe" class="nav-link">Subscribe</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+<!--    Header -->
+    <header class="header py-7 vh-100">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-12 text-container">
+            <h1 class="display-2 text-white mt-3">
+              Explore Our Training and Seminar Videos
+            </h1>
+            <!-- paragraph "lead" - make it a little bit bigger.-->
+            <p class="lead text-white width-75 m-auto mb-4">
+              Whether you're a beginner or an experienced professional, our
+              carefully curated content will empower you to enhance your skills
+              and expand your knowledge
+            </p>
+            <a href="#register" class="btn btn-primary text-uppercase">
+              Register
+            </a>
+            <a href="#discover" class="btn btn-outline-light text-uppercase">
+              Discover
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
