@@ -1,6 +1,9 @@
 // Add custom JavaScript here
+
+const navbarCollapse = document.querySelector('.navbar-collapse')
+const navbar = document.querySelector('.navbar');
 function useScroll() {
-  const navbar = document.querySelector('.navbar');
+
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
       navbar.classList.add('bg-dark')
@@ -8,7 +11,9 @@ function useScroll() {
       navbar.classList.remove('bg-dark')
     }
   })
-}
 
+
+}
+navbar.addEventListener('onmouseleave', () => navbarCollapse.style.visibility = 'hidden')
 
 document.addEventListener('DOMContentLoaded', useScroll)
